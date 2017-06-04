@@ -1,0 +1,136 @@
+/* 
+    Created on : Nov 19, 2014, 11:38:59 PM
+    Author     : Saimon
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+@media screen{
+    #mainblock{
+        width: 100%;
+        top: 108px;
+        position: absolute;
+    }
+
+    #toolbar{
+        position: static;
+        height: auto;
+        padding-left: 96px;
+        padding-right: 96px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-color: #F5F5F5;  
+    }
+    #FamilyDetails{
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        background-color: #FFFFFF;
+        padding: 36px;
+    }
+
+
+    #fields{
+        float:left;
+    }
+
+    #fieldvalues{
+        float:left;
+        padding-left: 36px;
+    }
+
+    p.account{
+        background-color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 4px;
+        padding-bottom: 4px
+    }
+
+    body{
+        margin:0px;
+        min-width: 1024px;
+        background: #E9E9E9; //#567;
+        font-family:"Open Sans",sans-serif;
+    }
+
+    p, form{
+        font-size: 13px;
+        font-family: "Open Sans",sans-serif;
+    }
+
+    h4{
+        font-family: "Open Sans",sans-serif;
+    }
+
+    input.loginSubmit, button.loginSubmit{
+        width:100%;
+        background: #48448e;
+        border:0;
+        padding:2%;
+        font-family:'Open Sans',sans-serif;
+        font-size:100%;
+        color:#fff;
+        cursor:pointer;
+        transition:background .3s;
+        -webkit-transition:background .3s;
+    }
+
+    input.loginSubmit:hover{
+        background: #4d137f;
+    }
+}
+
+@media print{
+    #mainblock{
+        width: 100%; 
+        position:static;
+    }
+
+    #toolbar{
+        display: none; 
+    }
+
+    #FamilyDetails{
+        margin-left: 96px;
+        margin-right: 96px;
+        height: 400px;
+        background-color: #FFFFFF;
+        padding: 36px;
+    }
+
+
+    #fields{
+        float:left;
+    }
+
+    #fieldvalues{
+        float:left;
+        padding-left: 36px;
+    }
+
+    p.account{
+        background-color: white;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 4px;
+        padding-bottom: 4px
+    }
+
+    body{
+        margin:0px;
+        min-width: 1024px;
+        background: #E9E9E9; //#567;
+        font-family:"Open Sans",sans-serif;
+    }
+
+    p, form{
+        font-size: 16px;
+        font-family: "Open Sans",sans-serif;
+    }
+
+    h4{
+        display: none;
+        font-family: "Open Sans",sans-serif;
+    }
+
+
+}
